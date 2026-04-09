@@ -1,0 +1,208 @@
+{
+    "keywords": [
+        {
+            "words": [
+                "\\w+\\s*=\\s*\"(?:([^\"]{16})|([^\"]{24})|([^\"]{32}))\""
+            ],
+            "exclude": [],
+            "nearby_lines": -1,
+            "nearby_chars": 30,
+            "down_lines": 0,
+            "up_lines": 0,
+            "enabled": false,
+            "exclude_nearby": true,
+            "multi_line_exclude": false,
+            "use_regex": true,
+            "remark": "AES秘钥匹配"
+        },
+        {
+            "words": [
+                "((?i)((access_key|access_token|admin_pass|admin_user|algolia_admin_key|algolia_api_key|alias_pass|alicloud_access_key|amazon_secret_access_key|amazonaws|ansible_vault_password|aos_key|api_key|api_key_secret|api_key_sid|api_secret|api.googlemaps AIza|apidocs|apikey|apiSecret|app_debug|app_id|app_key|app_log_level|app_secret|appkey|appkeysecret|application_key|appsecret|appspot|auth_token|authorizationToken|authsecret|aws_access|aws_access_key_id|aws_bucket|aws_key|aws_secret|aws_secret_key|aws_token|AWSSecretKey|b2_app_key|bashrc password|bintray_apikey|bintray_gpg_password|bintray_key|bintraykey|bluemix_api_key|bluemix_pass|browserstack_access_key|bucket_password|bucketeer_aws_access_key_id|bucketeer_aws_secret_access_key|built_branch_deploy_key|bx_password|cache_driver|cache_s3_secret_key|cattle_access_key|cattle_secret_key|certificate_password|ci_deploy_password|client_secret|client_zpk_secret_key|clojars_password|cloud_api_key|cloud_watch_aws_access_key|cloudant_password|cloudflare_api_key|cloudflare_auth_key|cloudinary_api_secret|cloudinary_name|codecov_token|config|conn.login|connectionstring|consumer_key|consumer_secret|credentials|cypress_record_key|database_password|database_schema_test|datadog_api_key|datadog_app_key|db_password|db_server|db_username|dbpasswd|dbpassword|dbuser|deploy_password|digitalocean_ssh_key_body|digitalocean_ssh_key_ids|docker_hub_password|docker_key|docker_pass|docker_passwd|docker_password|dockerhub_password|dockerhubpassword|dot-files|dotfiles|droplet_travis_password|dynamoaccesskeyid|dynamosecretaccesskey|elastica_host|elastica_port|elasticsearch_password|encryption_key|encryption_password|env.heroku_api_key|env.sonatype_password|eureka.awssecretkey)[a-z0-9_ .\\-,]{0,25})(=|>|:=|\\|\\|:|<=|=>|:).{0,5}['\\\"\\ ]([0-9a-zA-Z\\-_=]{8,64})['\\\"\\ ])"
+            ],
+            "exclude": [],
+            "nearby_lines": -1,
+            "nearby_chars": 10,
+            "down_lines": 0,
+            "up_lines": 0,
+            "enabled": false,
+            "exclude_nearby": true,
+            "multi_line_exclude": false,
+            "use_regex": true,
+            "remark": ""
+        },
+        {
+            "words": [
+                "(['\\\"\\ ](GOOG[\\w\\W]{10,30})['\\\"\\ ]|(['\\\"\\ ]AZ[A-Za-z0-9]{34,40}['\\\"\\ ])|(['\\\"\\ ]AKID[A-Za-z0-9]{13,20}['\\\"\\ ])|(['\\\"\\ ]AKIA[A-Za-z0-9]{16}['\\\"\\ ])|(['\\\"\\ ][a-zA-Z0-9]{8}(-[a-zA-Z0-9]{4}){3}-[a-zA-Z0-9]{12}['\\\"\\ ])|(['\\\"\\ ]OCID[A-Za-z0-9]{10,40}['\\\"\\ ])|(['\\\"\\ ]LTAI[A-Za-z0-9]{12,20}['\\\"\\ ])|(['\\\"\\ ][A-Z0-9]{20}$['\\\"\\ ])|(['\\\"\\ ]JDC_[A-Z0-9]{28,32}['\\\"\\ ])|(['\\\"\\ ]AK[A-Za-z0-9]{10,40}['\\\"\\ ])|(['\\\"\\ ]UC[A-Za-z0-9]{10,40}['\\\"\\ ])|(['\\\"\\ ]QY[A-Za-z0-9]{10,40}['\\\"\\ ])|(['\\\"\\ ]AKLT[a-zA-Z0-9-_]{16,28}['\\\"\\ ])|(['\\\"\\ ]LTC[A-Za-z0-9]{10,60}['\\\"\\ ])|(['\\\"\\ ]YD[A-Za-z0-9]{10,60}['\\\"\\ ])|(['\\\"\\ ]CTC[A-Za-z0-9]{10,60}['\\\"\\ ])|(['\\\"\\ ]YYT[A-Za-z0-9]{10,60}['\\\"\\ ])|(['\\\"\\ ]YY[A-Za-z0-9]{10,40}['\\\"\\ ])|(['\\\"\\ ]CI[A-Za-z0-9]{10,40}['\\\"\\ ])|(['\\\"\\ ]gcore[A-Za-z0-9]{10,30}['\\\"\\ ]))"
+            ],
+            "exclude": [],
+            "nearby_lines": -1,
+            "nearby_chars": 10,
+            "down_lines": 0,
+            "up_lines": 0,
+            "enabled": false,
+            "exclude_nearby": true,
+            "multi_line_exclude": false,
+            "use_regex": true,
+            "remark": ""
+        },
+        {
+            "words": [
+                "((?i)((access_key|appsecret|app_secret|access_token|password|secretkey|accesskey|accesskeyid|accesskeysecret|secret_key|pwd|test_user|admin_pass|admin_user|algolia_admin_key|algolia_api_key|alias_pass|alicloud_access_key|amazon_secret_access_key|amazonaws|ansible_vault_password|aos_key|api_key|api_key_secret|api_key_sid|api_secret|api.googlemaps AIza|apidocs|apikey|apiSecret|app_debug|app_id|app_key|app_log_level|app_secret|appkey|appkeysecret|application_key|appsecret|appspot|auth_token|authorizationToken|authsecret|aws_access|aws_access_key_id|aws_bucket|aws_key|aws_secret|aws_secret_key|aws_token|AWSSecretKey|b2_app_key|bashrc password|bintray_apikey|bintray_gpg_password|bintray_key|bintraykey|bluemix_api_key|bluemix_pass|browserstack_access_key|bucket_password|bucketeer_aws_access_key_id|bucketeer_aws_secret_access_key|built_branch_deploy_key|bx_password|cache_driver|cache_s3_secret_key|cattle_access_key|cattle_secret_key|certificate_password|ci_deploy_password|client_secret|client_zpk_secret_key|clojars_password|cloud_api_key|cloud_watch_aws_access_key|cloudant_password|cloudflare_api_key|cloudflare_auth_key|cloudinary_api_secret|cloudinary_name|codecov_token|config|conn.login|connectionstring|consumer_key|consumer_secret|credentials|cypress_record_key|database_password|database_schema_test|datadog_api_key|datadog_app_key|db_password|db_server|db_username|dbpasswd|dbpassword|dbuser|deploy_password|digitalocean_ssh_key_body|digitalocean_ssh_key_ids|docker_hub_password|docker_key|docker_pass|docker_passwd|docker_password|dockerhub_password|dockerhubpassword|dot-files|dotfiles|droplet_travis_password|dynamoaccesskeyid|dynamosecretaccesskey|elastica_host|elastica_port|elasticsearch_password|encryption_key|encryption_password|env.heroku_api_key|env.sonatype_password|eureka.awssecretkey)[a-z0-9_.]{0,25})(=|>|:=|:|<=|=>|:).{0,5}['\\\"\\ ]([0-9a-zA-Z-_=]{12,64})['\\\"\\ ])"
+            ],
+            "exclude": [],
+            "nearby_lines": -1,
+            "nearby_chars": 10,
+            "down_lines": 0,
+            "up_lines": 0,
+            "enabled": false,
+            "exclude_nearby": true,
+            "multi_line_exclude": false,
+            "use_regex": true,
+            "remark": ""
+        },
+        {
+            "words": [
+                "(LTAI[A-Za-z0-9]{12,20})"
+            ],
+            "exclude": [],
+            "nearby_lines": -1,
+            "nearby_chars": 10,
+            "down_lines": 0,
+            "up_lines": 0,
+            "enabled": false,
+            "exclude_nearby": true,
+            "multi_line_exclude": false,
+            "use_regex": true,
+            "remark": ""
+        },
+        {
+            "words": [
+                "多行关键字参与附近匹配过滤"
+            ],
+            "exclude": [
+                "123"
+            ],
+            "nearby_lines": 1,
+            "nearby_chars": 10,
+            "down_lines": 0,
+            "up_lines": 0,
+            "enabled": false,
+            "exclude_nearby": true,
+            "multi_line_exclude": false,
+            "use_regex": false,
+            "remark": "测试"
+        },
+        {
+            "words": [
+                "[^0-9]((\\d{8}(0\\d|10|11|12)([0-2]\\d|30|31)\\d{3}$)|(\\d{6}(18|19|20)\\d{2}(0[1-9]|10|11|12)([0-2]\\d|30|31)\\d{3}(\\d|X|x)))[^0-9]"
+            ],
+            "exclude": [],
+            "nearby_lines": -1,
+            "nearby_chars": 10,
+            "down_lines": 0,
+            "up_lines": 0,
+            "enabled": false,
+            "exclude_nearby": true,
+            "multi_line_exclude": false,
+            "use_regex": true,
+            "remark": ""
+        },
+        {
+            "words": [
+                "(^[1-9]\\d{5}(18|19|20)\\d{2}((0[1-9])|(1[0-2]))(([0-2][1-9])|10|20|30|31)\\d{3}[0-9Xx]$)|(^[1-9]\\d{5}\\d{2}((0[1-9])|(1[0-2]))(([0-2][1-9])|10|20|30|31)\\d{3}$)"
+            ],
+            "exclude": [],
+            "nearby_lines": -1,
+            "nearby_chars": 10,
+            "down_lines": 0,
+            "up_lines": 0,
+            "enabled": false,
+            "exclude_nearby": true,
+            "multi_line_exclude": false,
+            "use_regex": true,
+            "remark": "身份证号"
+        },
+        {
+            "words": [
+                "port"
+            ],
+            "exclude": [],
+            "nearby_lines": -1,
+            "nearby_chars": 10,
+            "down_lines": 0,
+            "up_lines": 0,
+            "enabled": false,
+            "exclude_nearby": true,
+            "multi_line_exclude": false,
+            "use_regex": false,
+            "remark": "端口"
+        },
+        {
+            "words": [
+                "host"
+            ],
+            "exclude": [],
+            "nearby_lines": -1,
+            "nearby_chars": 10,
+            "down_lines": 0,
+            "up_lines": 0,
+            "enabled": false,
+            "exclude_nearby": true,
+            "multi_line_exclude": false,
+            "use_regex": false,
+            "remark": "host"
+        },
+        {
+            "words": [
+                "username"
+            ],
+            "exclude": [],
+            "nearby_lines": -1,
+            "nearby_chars": 10,
+            "down_lines": 0,
+            "up_lines": 0,
+            "enabled": false,
+            "exclude_nearby": true,
+            "multi_line_exclude": false,
+            "use_regex": false,
+            "remark": "username"
+        },
+        {
+            "words": [
+                "password"
+            ],
+            "exclude": [],
+            "nearby_lines": -1,
+            "nearby_chars": 10,
+            "down_lines": 0,
+            "up_lines": 0,
+            "enabled": false,
+            "exclude_nearby": true,
+            "multi_line_exclude": false,
+            "use_regex": false,
+            "remark": "password"
+        },
+        {
+            "words": [
+                "admin"
+            ],
+            "exclude": [],
+            "nearby_lines": -1,
+            "nearby_chars": 10,
+            "down_lines": 1,
+            "up_lines": 1,
+            "enabled": true,
+            "exclude_nearby": true,
+            "multi_line_exclude": false,
+            "use_regex": false,
+            "remark": "admin"
+        }
+    ],
+    "nearby_lines": -1,
+    "nearby_chars": 10,
+    "down_lines": 0,
+    "up_lines": 0,
+    "auto_export": true,
+    "auto_detect_encoding": true,
+    "max_workers": 2
+}

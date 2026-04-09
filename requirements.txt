@@ -1,0 +1,33 @@
+# 核心依赖（必需）
+PyQt5>=5.15.0
+chardet>=4.0.0
+
+# 可选依赖 - 用于支持不同文件格式
+# 安装这些库以支持相应的文件格式
+
+# Word 文档支持
+python-docx>=0.8.11
+
+# Excel 文件支持
+openpyxl>=3.0.0  # 用于 .xlsx 文件
+xlrd>=2.0.0      # 用于 .xls 文件（旧版 Excel）
+
+# PowerPoint 文件支持
+python-pptx>=0.6.21
+
+# JavaScript 美化（可选）
+jsbeautifier>=1.14.0
+
+# 流量包分析（可选）
+scapy>=2.4.5  # 用于解析 pcap/pcapng 流量包文件
+
+# Windows 事件日志分析（可选）
+python-evtx>=0.7.4  # 用于解析 Windows 事件日志文件（.evtx）
+
+# 注意：
+# - 如果不安装这些可选依赖，程序仍然可以运行
+# - 但无法读取对应格式的文件（会跳过或尝试作为文本文件读取）
+# - 纯文本文件和代码文件无需额外依赖即可处理
+# - 流量包分析需要安装 scapy，可以提取 HTTP、DNS 等协议中的文本内容进行关键字匹配
+# - Windows 事件日志分析需要安装 python-evtx，可以提取事件ID、描述、用户名等关键信息进行匹配
+
