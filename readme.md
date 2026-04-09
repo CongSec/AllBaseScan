@@ -24,23 +24,25 @@ github链接：[CongSec/SearchTool: 简单正则表达式图形化](https://gith
 # GUI界面
 
 ### 关键字添加界面
-<img width="1218" height="1234" alt="image" src="https://github.com/user-attachments/assets/fd1d8eb5-c05d-43e7-aa04-e7bd5c871b46" />
+<img width="1218" height="1234" alt="image" src="https://github.com/user-attachments/assets/7e80ea35-fdeb-481b-898b-78a718fe1e6f" />
+
 
 
 
 ### 单个匹配界面
 
-<img width="2381" height="1526" alt="image" src="https://github.com/user-attachments/assets/8f71fd0d-f08d-4997-8b31-52ceb7370940" />
+<img width="2381" height="1526" alt="image" src="https://github.com/user-attachments/assets/e6a6d269-8fb8-482d-90af-06d852f302c1" />
 
 
 ### 批量处理界面
 
-<img width="1356" height="1514" alt="image" src="https://github.com/user-attachments/assets/ba6d8c17-fddd-416b-a069-29c13a27418c" />
+<img width="1893" height="1466" alt="image" src="https://github.com/user-attachments/assets/a2d480d7-c076-48b8-85f7-14124cccc4aa" />
 
 
 ### 结果导出界面
 
-<img width="1893" height="1466" alt="image" src="https://github.com/user-attachments/assets/eb3b11cb-7ef1-4900-bf3a-caa99402b9ba" />
+<img width="1356" height="1514" alt="image" src="https://github.com/user-attachments/assets/44d5ea88-6081-48f3-8c2e-5083bb9c6dce" />
+
 
 
 ### 结果自动导出
@@ -50,4 +52,3 @@ github链接：[CongSec/SearchTool: 简单正则表达式图形化](https://gith
 
 ### 大文本批量查询（数亿级别）
 <img width="2258" height="1076" alt="image" src="https://github.com/user-attachments/assets/a431c5eb-d5e1-446a-892d-6077f87fb5ed" />
-<img width="2258" height="1076" alt="image" src="https://github.com/user-attachments/assets/bba27174-31a0-4f42-95b8-5b9feb9f4f84" />
